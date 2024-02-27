@@ -1,0 +1,235 @@
+<!DOCTYPE HTML>
+<!--
+	Fractal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="es">
+
+<head>
+	<title>Fractal by HTML5 UP</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="assets/css/main.css">
+
+		<link
+		  rel="stylesheet"
+		  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css">
+	</noscript>
+
+	<script>
+		//cuando la página se carga completamente se ejecuta DOMCONTENTLOADER y se oculta elemento clase .fixa
+		document.addEventListener("DOMContentLoaded", function () {
+			var element = document.querySelector('.fixinici');
+			element.style.display = 'none';
+		});
+		window.onscroll = function () {
+			//el elemento con clase .fixa se oculta o muestra según la posición del scroll, en función de si el scrollY es igual a 0 o no
+			var element = document.querySelector('.fixinici');
+			element.style.display = 'none';
+			if (window.scrollY == 0) {
+				element.style.display = 'none';
+			}
+			else {
+				element.style.display = 'block';
+			}
+		};
+	</script>
+	<script src="smooth-scroll-master/dist/smooth-scroll.min.js"></script>
+
+</head>
+
+<body class="is-preload">
+
+	<div>
+		<a href="#" class="scrolly">
+			<img class="fixinici" src="images/angulo-hacia-arriba.svg" alt="fletxa">
+		</a>
+	</div>
+
+	<!-- Header -->
+	<header id="header">
+		<div class="content">
+			<h1><a href="#">EMB DISSENY WEB</a></h1>
+			<p>Ajudem a que la vostra idea es converteixi en una realitat</p>
+			<ul class="actions">
+				<li><a href="#one" class="button icon solid fa-chevron-down scrolly">Més informació</a></li>
+			</ul>
+		</div>
+		<div class="image phone">
+			<div class="inner"><img src="images/foto1_screen.jpg" alt="" title="EMB DISSENY"></div>
+		</div>
+	</header>
+
+	<!-- One -->
+	<section id="one" class="wrapper style2 special">
+		<header class="major">
+			<h2 class="animate__animated animate__slideInDown animate__faster">Dissenyem aplicacions que permeten millorar els vostres processos</h2>
+		</header>
+		<ul class="icons major">
+			<li><a class="icon solid fa-mobile scrolly animate__animated animate__fadeIn animate__fast" title="Mobile" href="#des_apps"><span
+						class="label">Mobile</span></a></li>
+			<li><a class="icon solid fa-desktop scrolly animate__animated animate__fadeIn animate__fast" title="Desktop" href="#des_soft"><span
+						class="label">Desktop</span></a></li>
+			<li><a class="icon solid fa-cloud scrolly animate__animated animate__fadeIn animate__fast" title="Cloud" href="#apps_cloud"><span
+						class="label">Cloud</span></a></li>
+			<li><a class="icon solid fa-users scrolly animate__animated animate__fadeIn animate__fast" title="Users" href="#"><span class="label">Users</span></a></li>
+		</ul>
+	</section>
+	<!-- Two -->
+	<section id="two" class="wrapper">
+		<div class="inner alt">
+			<section class="spotlight animate__animated animate__lightSpeedInRight" id="des_apps">
+				<div class="image"><img src="images/apps_pic01.png" alt=""></div>
+				<div class="content">
+					<h3>Desenvolupament d'aplicacions Apps</h3>
+					<p>Oferim solucions completes per a tot tipus de dispositius.</p>
+				</div>
+			</section>
+			<section class="spotlight animate__animated animate__lightSpeedInLeft" id="des_soft">
+				<div class="image"><img src="images/software_pic02.jpg" alt=""></div>
+				<div class="content">
+					<h3>Desenvolupament de software</h3>
+					<p>T'ajudem a escollir la millor tecnologia per a la teva empresa.</p>
+				</div>
+			</section>
+			<section class="spotlight animate__animated animate__lightSpeedInRight" id="apps_cloud">
+				<div class="image"><img src="images/cloud_pic03.jpg" alt=""></div>
+				<div class="content">
+					<h3>Aplicacions en cloud</h3>
+					<p>Us facilitaran la comunicació amb els vostres clients.</p>
+				</div>
+			</section>
+	
+			<section class="special">
+				<ul class="icons labeled">
+					<li><span class="icon solid fa-newspaper"><span class="label">Auditoria SEO</span></span>
+					</li>
+					<li><span class="icon solid fa-cloud"><span class="label">Catàleg online</span></span></li>
+					<li><span class="icon solid fa-code"><span class="label">Assessoria integral</span></span></li>
+					<li><span class="icon solid fa-desktop"><span class="label">Màrqueting web</span></span>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<!-- Three -->
+	<section id="three" class="wrapper style2 special">
+		<header class="major">
+			<h2>ESPECIALISTES EN NEGOCIS DIGITALS</h2>
+			<p>La nostra experiència en negocis reals és el que ens fa diferents.</p>
+		</header>
+		<ul class="actions special">
+			<li><a href="docs/TARIFES_2024.pdf" class="button primary icon solid fa-download animate__animated animate__pulse animate__infinite" download>Descarregar
+					tarifes</a></li>
+			<li><a href="#" class="button scrolly">Torna a l'inici</a></li>
+		</ul>
+	
+	</section>
+
+	<section id="prova_form">
+		<div class="form1">
+			<h4>Formulari de contacte</h4>
+			<form method="post" action="#">
+				<div class="gtr-uniform">
+					<div class="col-6 col-12-xsmall">
+						<input type="text" name="demo-name" id="demo-name" value="" placeholder="Nom">
+					</div>
+					<div class="col-6 col-12-xsmall">
+						<input type="email" name="demo-email" id="demo-email" value="" placeholder="Adreça electrònica">
+					</div>
+					<div class="col-12">
+						<select name="demo-category" id="demo-category">
+							<option value="">- Categoria -</option>
+							<option value="1">Fabricació</option>
+							<option value="1">Enviament</option>
+							<option value="1">Administració</option>
+							<option value="1">Recursos humans</option>
+						</select>
+					</div>
+					<div class="col-4 col-12-small">
+						<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+						<label for="demo-priority-low">Baix</label>
+					</div>
+					<div class="col-4 col-12-small">
+						<input type="radio" id="demo-priority-normal" name="demo-priority">
+						<label for="demo-priority-normal">Normal</label>
+					</div>
+					<div class="col-4 col-12-small">
+						<input type="radio" id="demo-priority-high" name="demo-priority">
+						<label for="demo-priority-high">Alt</label>
+					</div>
+					<div class="col-6 col-12-small">
+						<input type="checkbox" id="demo-copy" name="demo-copy">
+						<label for="demo-copy">Rebre una còpia al meu correu</label>
+					</div>
+					<div class="col-6 col-12-small">
+						<input type="checkbox" id="demo-human" name="demo-human" checked>
+						<label for="demo-human">No sóc un robot</label>
+					</div>
+					<div class="col-12">
+						<textarea name="demo-message" id="demo-message" placeholder="Escriu el teu missatge"
+							rows="6"></textarea>
+					</div>
+					<div class="col-12">
+						<ul class="actions">
+							<li><input type="submit" value="Enviar" class="primary"></li>
+							<li><input type="reset" value="Esborrar"></li>
+						</ul>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="form2">
+			<h4>Boletín de Noticias</h4>
+			<form method="post" action="#" class="bol_not_form">
+				<div class="bol_noticies">
+					<div class="col-12-xsmall">
+						<label for="usuari">Nombre:</label>
+						<input type="text" name="usuari" id="usuari" value="" placeholder="Usuari" required>
+					</div>
+					<div class="col-6 col-12-xsmall">
+						<label for="email">Email:</label>
+						<input type="email" name="email" id="email" value="" placeholder="Adreça electrònica" required>
+					</div>
+					<div class="col-12">
+						<ul class="actions">
+							<li><input type="submit" value="Enviar" class="primary"></li>
+						</ul>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="icons">
+			<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+			<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+		</ul>
+		<p class="copyright">&copy; EMB: <a href="http://html5up.net">DISSENY WEB</a></p>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	<script>
+		var scroll = new SmoothScroll('a[href="#"]', {
+			speed: 1000,
+			speedAsDuration: true
+		});
+	</script>
+
+</body>
+
+</html>
